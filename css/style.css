@@ -193,9 +193,9 @@ html {
     }
 
     .box {
-        width: 45vh;
-        height: 75vh;
-        border-radius: 50px;
+        width: 38vh;
+        height: 70vh;
+        border-radius: 30px;
         opacity: 0.9;
     }
 
