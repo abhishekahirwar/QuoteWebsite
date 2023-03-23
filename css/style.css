@@ -177,20 +177,24 @@ html {
 /* BREAKPOINTS */
 
 @media (max-width: 1000px) {
+    body{
+        background: none;
+    }
     .container {
-        width: 95vw;
-        height: 95vh;
-        border-radius: 50px;
+        width: 85vw;
+        height: 80vh;
+        border-radius: 20px;
+        box-shadow: 5px 5px 80px 90px skyblue;
     }
 
     .inner {
-        width: 95vw;
-        height: 95vh;
+        width: 85vw;
+        height: 80vh;
     }
 
     .box {
-        width: 48vh;
-        height: 85vh;
+        width: 45vh;
+        height: 75vh;
         border-radius: 50px;
         opacity: 0.9;
     }
@@ -224,16 +228,16 @@ html {
     }
 
     #quotes {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .author {
         text-align: right;
-        font-size: 90px;
+        font-size: 85px;
         margin-top: 4%;
     }
 
     #newQ {
-        font-size: 80px;
+        font-size: 75px;
     }
 }
